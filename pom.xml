@@ -16,9 +16,10 @@
     <module>../structured-resource-models</module>
     <module>../ui-libraries</module>
     <module>../kestros-cms-foundation</module>
+    <module>../kestros-site-admin-ui</module>
     <module>../kestros-forms-foundation</module>
     <module>../kestros-login</module>
-    <module>../kestros-site-admin-ui</module>
     <module>../kestros-site-administration</module>
+    <module>../kestros-user-management-core</module>
   </modules>
 </project>
