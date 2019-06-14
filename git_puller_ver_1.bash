@@ -17,12 +17,14 @@ declare -a repositoryNames=("slingware-root-project"
 				"kestros-build-helper"
 				)
 
-## now loop through the above array
+
 for name in "${repositoryNames[@]}"
 do
-	cd ~/Documents/Kestros/$(echo $name)/
+	## Add If Logic to check if folder exists, Create it if not.
+	cd ../$(echo $name)/
 	pwd
-	git pull https://${credentials}@github.com:slingware/${name}.git >/dev/null 2>&1
-	mvn clean install
-   # or do whatever with individual element of the array
+	git pull https://${credentials}@github.com/slingware/${name}.git #>/dev/null 2>&1
+	## if name == credentials[9]
+		## ask if want to mvn clean install
+	mvn clean install -PinstallPackage
 done
