@@ -25,6 +25,7 @@ declare -a repositoryNames=("kestros-build-helper"
                                                         "kestros-login"
                                                         "kestros-site-administration"
                                                         "kestros-user-management-core"
+                                                        "kestros-guides-core"
                                                         )
 
 
