@@ -21,5 +21,6 @@
     <module>../kestros-login</module>
     <module>../kestros-site-administration</module>
     <module>../kestros-user-management-core</module>
+    <module>../kestros-guides-core</module>
   </modules>
 </project>
