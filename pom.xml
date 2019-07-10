@@ -22,8 +22,8 @@
     <module>../kestros-site-administration</module>
     <module>../kestros-user-management-core</module>
     <module>../kestros-guides-core</module>
-
-
+    <module>../kestros-component-management</module>
+    <module>../kestros-ui-management</module>
     <module>../kestros-site-management-core</module>
     <module>../kestros-basic-components</module>
     <module>../kestros-sample-sites</module>
