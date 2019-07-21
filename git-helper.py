@@ -83,7 +83,7 @@ try:
     # Loop through the repositories
     for project in git_projects:
         # Check if we're doing a clone and cd to the correct directory level
-        if 'git clone' in command:
+        if 'git clone' in args.command:
             os.chdir('{}'.format(project_directory))
             print(run_command('{} {}'.format(args.command, 'git@github.com:slingware/')))
         print('Running \"{}\" in {}'.format(args.command, project))
