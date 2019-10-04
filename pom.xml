@@ -15,6 +15,8 @@
     <module>../slingware-root-project</module>
     <module>../structured-resource-models</module>
     <module>../ui-libraries</module>
+    <module>../kestros-structured-assets-core</module>
+    <module>../kestros-structured-images</module>
     <module>../kestros-cms-foundation</module>
     <module>../kestros-site-admin-ui</module>
     <module>../kestros-forms-foundation</module>
@@ -24,11 +26,13 @@
     <module>../kestros-guides-core</module>
     <module>../kestros-component-management</module>
     <module>../kestros-ui-management</module>
-    <module>../kestros-site-management-core</module>
     <module>../kestros-content-objects</module>
+    <module>../kestros-asset-management</module>
+    <module>../kestros-site-management-core</module>
     <module>../kestros-basic-components</module>
     <module>../kestros-sample-sites</module>
-    <!--    <module>../slingware-site</module>-->
+    <!--        <module>../slingware-site</module>-->
+    <module>../kestros-archetypes</module>
     <!--    <module>../kestros-demo-config</module>-->
   </modules>
 </project>
