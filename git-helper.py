@@ -45,7 +45,7 @@ git_projects = [
     'structured-resource-models',
     'ui-libraries',
     'kestros-structured-assets-core',
-    'kestros-structured-images-core',
+    'kestros-structured-images',
     'kestros-cms-foundation',
     'kestros-forms-foundation',
     'kestros-login',
