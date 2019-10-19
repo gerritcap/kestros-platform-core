@@ -18,7 +18,6 @@
     <module>../kestros-structured-assets-core</module>
     <module>../kestros-structured-images</module>
     <module>../kestros-cms-foundation</module>
-    <module>../kestros-site-admin-ui</module>
     <module>../kestros-forms-foundation</module>
     <module>../kestros-login</module>
     <module>../kestros-site-administration</module>
@@ -30,9 +29,10 @@
     <module>../kestros-asset-management</module>
     <module>../kestros-site-management-core</module>
     <module>../kestros-basic-components</module>
+    <module>../kestros-io-site</module>
     <module>../kestros-sample-sites</module>
-    <!--        <module>../slingware-site</module>-->
-    <module>../kestros-archetypes</module>
+    <!--    <module>../slingware-site</module>-->
+    <!--    <module>../kestros-archetypes</module>-->
     <!--    <module>../kestros-demo-config</module>-->
   </modules>
 </project>
