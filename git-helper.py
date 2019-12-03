@@ -53,14 +53,15 @@ git_projects = [
     'kestros-user-management-core',
     'kestros-guides-core',
     'kestros-component-management',
+    'kestros-dialog-management-foundation',
     'kestros-ui-management',
     'kestros-content-objects',
     'kestros-asset-management',
     'kestros-site-management-core',
     'kestros-basic-components',
     'kestros-sample-sites',
-    'slingware-site',
-    'slingware-devops']
+    'slingware-site']
+    #'slingware-devops']
 
 # Process the command line arguments and run the git command(s) for each project
 try:
