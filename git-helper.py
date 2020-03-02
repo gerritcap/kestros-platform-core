@@ -1,5 +1,3 @@
-#!/usr/local/bin/python3
-
 from __future__ import print_function
 import argparse
 import os
@@ -40,28 +38,35 @@ def run_command(command):
         sys.exit(1)
 
 # The list of git projects to run the command(s) for
-git_projects = [
-    'slingware-root-project',
-    'structured-resource-models',
-    'ui-libraries',
-    'kestros-structured-assets-core',
-    'kestros-structured-images',
-    'kestros-cms-foundation',
-    'kestros-forms-foundation',
-    'kestros-login',
-    'kestros-site-administration',
-    'kestros-user-management-core',
-    'kestros-guides-core',
-    'kestros-component-management',
-    'kestros-dialog-management-foundation',
-    'kestros-ui-management',
-    'kestros-content-objects',
-    'kestros-asset-management',
-    'kestros-site-management-core',
-    'kestros-basic-components',
-    'kestros-sample-sites',
-    'slingware-site']
-    #'slingware-devops']
+git_projects = ['kestros-root-project',
+                'kestros-structured-sling-models',
+                'kestros-osgi-service-utils',
+                'sling-ui-libraries',
+                'kestros-user-foundation',
+                'kestros-cms-foundation',
+                'kestros-basic-components',
+                'kestros-sample-sites',
+                'kestros-structured-assets-core',
+                'kestros-structured-images',
+                'kestros-forms-foundation',
+                'kestros-login',
+                'kestros-site-administration',
+                'kestros-system-settings',
+                'kestros-user-management-core',
+                'kestros-guides-core',
+                'kestros-cache-management-foundation',
+                'kestros-component-management',
+                'kestros-dialog-management-foundation',
+                'kestros-ui-management',
+                'kestros-service-management',
+                'kestros-content-objects',
+                'kestros-asset-management',
+                'kestros-site-management-core',
+                'kestros-content-publication-foundation',
+                'kestros-basic-components-legacy',
+                'kestros-sample-sites-legacy',
+                'kestros-demo-config',
+                'kestros-devops']
 
 # Process the command line arguments and run the git command(s) for each project
 try:
@@ -89,10 +94,11 @@ try:
         # Check if we're doing a clone and cd to the correct directory level
         if 'git clone' in args.command:
             os.chdir('{}'.format(project_directory))
-            print(run_command('{} {}'.format(args.command, 'git@github.com:slingware/')))
-        print('Running \"{}\" in {}'.format(args.command, project))
-        os.chdir('{}/{}'.format(project_directory, project))
-        print(run_command(args.command).decode('ascii'))
+            print(run_command('{} {}'.format(args.command, 'git@github.com:kestros/{}'.format(project))))
+        else:
+            print('Running \"{}\" in {}'.format(args.command, project))
+            os.chdir('{}/{}'.format(project_directory, project))
+            print(run_command(args.command).decode('ascii'))
 
 except Exception as error_message:
     print(error_message)
