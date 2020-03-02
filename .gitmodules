@@ -1,27 +1,27 @@
 [submodule "kestros-root-project"]
 	path = kestros-root-project
-	url = git@github.com:kestros/kestros-root-project.git
+	url = ../kestros-root-project.git
 [submodule "kestros-structured-sling-models"]
 	path = kestros-structured-sling-models
-	url = git@github.com:kestros/kestros-structured-sling-models.git
+	url = ../kestros-structured-sling-models.git
 [submodule "kestros-osgi-service-utils"]
 	path = kestros-osgi-service-utils
-	url = git@github.com:kestros/kestros-osgi-service-utils.git
+	url = ../kestros-osgi-service-utils.git
 [submodule "kestros-sling-ui-libraries"]
 	path = kestros-sling-ui-libraries
-	url = git@github.com:kestros/kestros-sling-ui-libraries.git
+	url = ../kestros-sling-ui-libraries.git
 [submodule "kestros-cms-foundation"]
 	path = kestros-cms-foundation
-	url = git@github.com:kestros/kestros-cms-foundation.git
+	url = ../kestros-cms-foundation.git
 [submodule "kestros-basic-components"]
 	path = kestros-basic-components
-	url = git@github.com:kestros/kestros-basic-components.git
+	url = ../kestros-basic-components.git
 [submodule "kestros-sample-sites"]
 	path = kestros-sample-sites
-	url = git@github.com:kestros/kestros-sample-sites.git
+	url = ../kestros-sample-sites.git
 [submodule "kestros-archetypes"]
 	path = kestros-archetypes
-	url = git@github.com:kestros/kestros-archetypes.git
+	url = ../kestros-archetypes.git
 [submodule "kestros-user-foundation"]
 	path = kestros-user-foundation
-	url = git@github.com:kestros/kestros-user-foundation.git
+	url = ../kestros-user-foundation.git
