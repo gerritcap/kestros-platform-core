@@ -1,0 +1,24 @@
+[submodule "kestros-root-project"]
+	path = kestros-root-project
+	url = https://github.com/kestros/kestros-root-project
+[submodule "kestros-structured-sling-models"]
+	path = kestros-structured-sling-models
+	url = https://github.com/kestros/kestros-structured-sling-models
+[submodule "kestros-osgi-service-utils"]
+	path = kestros-osgi-service-utils
+	url = https://github.com/kestros/kestros-osgi-service-utils
+[submodule "kestros-sling-ui-libraries"]
+	path = kestros-sling-ui-libraries
+	url = https://github.com/kestros/kestros-sling-ui-libraries
+[submodule "kestros-cms-foundation"]
+	path = kestros-cms-foundation
+	url = https://github.com/kestros/kestros-cms-foundation
+[submodule "kestros-basic-components"]
+	path = kestros-basic-components
+	url = https://github.com/kestros/kestros-basic-components
+[submodule "kestros-sample-sites"]
+	path = kestros-sample-sites
+	url = https://github.com/kestros/kestros-sample-sites
+[submodule "kestros-archetypes"]
+	path = kestros-archetypes
+	url = https://github.com/kestros/kestros-archetypes
