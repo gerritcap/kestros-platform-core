@@ -22,3 +22,6 @@
 [submodule "kestros-archetypes"]
 	path = kestros-archetypes
 	url = https://github.com/kestros/kestros-archetypes
+[submodule "kestros-user-foundation"]
+	path = kestros-user-foundation
+	url = https://github.com/kestros/kestros-user-foundation
