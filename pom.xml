@@ -5,10 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.kestros</groupId>
-  <artifactId>kestros-build-helper</artifactId>
+  <artifactId>kestros-platform-open-core</artifactId>
   <version>0.0.1</version>
 
-  <name>Kestros Build Helper</name>
+  <name>Kestros Platform Open Core</name>
+  <description>The kestros-platform-open-core project contains the repositories that form the open-source core of the Kestros platform.</description>
   <packaging>pom</packaging>
 
   <modules>
