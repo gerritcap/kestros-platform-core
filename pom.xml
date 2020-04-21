@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.kestros</groupId>
-  <artifactId>kestros-platform-open-core</artifactId>
+  <artifactId>kestros-platform-core</artifactId>
   <version>0.0.1</version>
 
-  <name>Kestros Platform Open Core</name>
-  <description>The kestros-platform-open-core project contains the repositories that form the open-source core of the Kestros platform.</description>
+  <name>Kestros Platform Core</name>
+  <description>The kestros-platform-core project contains the repositories that form the open-source core of the Kestros platform.</description>
   <packaging>pom</packaging>
 
   <modules>
